@@ -12,3 +12,8 @@ python train.py --epochs 50 --batch_size 16 --image_size 256 --lr 0.0005 --save_
 ```bash
 python evaluate.py
 ```
+# 3.混淆矩阵和错例
+首先更改confusion_matrix.py，main中的WEIGHT_PATH等参数，随后运行
+```bash
+python confusion_matrix.py
+```
