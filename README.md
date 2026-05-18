@@ -1,7 +1,7 @@
 # Pixel-level-Training-Of-Image-Segmentation
 计算机视觉 HW2 Task3
 
-# 配置环境
+# 配置环境（推荐使用python3.12及以上版本）
 ```bash
 pip install -r requirements.txt
 ```
