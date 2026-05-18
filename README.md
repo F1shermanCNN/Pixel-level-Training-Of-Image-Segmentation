@@ -1,6 +1,9 @@
 # Pixel-level-Training-Of-Image-Segmentation
 计算机视觉 HW2 Task3
-
+首先按照requirements.txt配置环境
+```bash
+pip install -r requirements.txt
+```
 # 1.训练测试
 ```bash
 python train.py --epochs 50 --batch_size 16 --image_size 256 --lr 0.0005 --save_dir checkpoints/testrun
